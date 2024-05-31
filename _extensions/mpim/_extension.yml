@@ -8,7 +8,7 @@ contributes:
       theme: [slides.scss]
       width: 1245
       height: 700
-      css: _extensions/mpim/fonts/fonts.css
+      css: _extensions/mpimet/mpim/fonts/fonts.css
       transition: slide
       slide-number: true
       code-background: true
@@ -72,7 +72,7 @@ contributes:
     html:
       toc: false
       theme: [poster.scss]
-      css: _extensions/mpim/fonts/fonts.css
+      css: _extensions/mpimet/mpim/fonts/fonts.css
       page-layout: custom
       resources:
         - MPI_M_Logo_green_ex.png
