@@ -1,0 +1,6 @@
+.DS_Store
+*.swp
+/slides.html
+/poster.html
+/slides_files
+/poster_files

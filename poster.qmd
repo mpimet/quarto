@@ -1,0 +1,80 @@
+---
+title: MPIM poster with Quarto
+format:
+  mpim-html: default
+author:
+  - name: Lukas Kluft
+    affiliation:
+      - id: mpim
+        name: Max-Planck-Institut für Meteorologie
+  - name: Tobias Kölling
+    affiliation:
+      - ref: mpim
+mpim-sab:
+  department: Climate Physics
+  workinggroup: Tropical Cloud Observations
+---
+
+# Introduction { .col2 .row2 }
+
+This is a MPIM Poster template to be used with [Quarto](https://quarto.org/). In order to get started, please create a `.qmd` file with the following `YAML` frontmatter as initial content:
+
+```yaml
+---
+title: Your Title
+format:
+  mpim-poster-html: default
+author: Your Name
+---
+```
+
+# Extra Scholary Information { .col2 }
+
+In scholary writing, it's common to provide a whole bunch of extra header information (e.g. affiliations, keywords, license, citation etc...). Please have a look at [Quarto's Authoring documentation](https://quarto.org/docs/authoring/front-matter.html) to see what's possible. Currently the poster template supports affiliations, but more may come...
+
+# How to work with the grid { .col2 .row2 }
+You can use the six columns for a 2 or 3 column layout or
+combine both, dividing your poster into several sections. If
+your content allows it you can also use the 6 columns more
+freely – it’s just a help to align your content more easily.
+
+In order to make a section multi-column, you'll have to add a CSS class to the section header, e.g.:
+
+```markdown
+# 3-column section { .col3 }
+```
+
+The same works with any `.colX`-value from `1` to `6`.
+
+Similarly, you can add `.rowY` classes if a section should span multiple rows.
+
+# Generating the poster { .col2 }
+
+You can generate the poster (as HTML) using the folling command:
+
+```bash
+quarto render your-file.qmd
+```
+
+# Hints { .col3 .note }
+* **Order – create an overview**
+* Group and organise content - we can grasp ordered content more quickly
+* Reuse key design elements. The viewer recognises elements that are repeated and belong together.
+* **Contrast – build tension**
+* Use contrast to draw the viewer‘s attention to things, e.g. size, brightness, color. Contrast can set accents in design.
+* **Reduction – create more with less**
+* Reduce to the essentials: emphasise what is important and check every element for its justification -> don‘t be afraid of free spaces.
+
+# More Information { .col3 }
+
+You can learn more about getting started with Quarto here: <https://quarto.org/docs/get-started/>
+
+# Nested Headings { .col2 }
+
+Nested headings are possible and don't create new boxees...
+
+## Subheading 1
+Test
+
+## Subheading 2
+Test

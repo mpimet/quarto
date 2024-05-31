@@ -1,0 +1,104 @@
+/*-- scss:defaults --*/
+
+$white:    #fff;
+$black:    #000;
+$green:   #006c66;
+$darkgreen: #005555;
+$darkgrey: #777777;
+$grey: #a7a7a8;
+$lightgrey: #eeeeee;
+$lightgreen: #c6d325;
+$darkblue: #29485d;
+$lightblue: #00b1ea;
+$orange: #ef7c00;
+
+$primary:       $green;
+$secondary:     $grey;
+$success:       $green;
+$info:          $lightgreen;
+$warning:       $orange;
+$danger:        $orange;
+$light:         $lightgrey;
+$dark:          $darkgrey;
+
+$presentation-heading-font: "Roboto";
+$presentation-heading-color: $green;
+
+/*-- scss:rules --*/
+
+.quarto-title-block .slide-background-content {
+    background-image: url("../../../../../_extensions/mpim/titles/green.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.level1 .slide-background-content {
+    background-image: url("../../../../../_extensions/mpim/slide_separators/dots.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.quarto-title-block {
+    color: $white;
+    h1 {
+        color: $white;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.6em !important;
+}
+
+h2 {
+    text-align: center;
+}
+
+.reveal .center {
+    text-align: center;
+}
+
+.centerbig {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.vextend1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.larger {
+    font-size: 1.3em;
+}
+
+.smaller {
+    font-size: .8em;
+}
+
+.right {
+    text-align: right;
+}
+
+.attribution {
+  transform: translateX(calc(50% + 2em)) rotate(-90deg);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  font-size: .5em;
+}
+
+div.columns {
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+}
+
+div.column {
+    margin: auto 0;
+    table {
+        margin: auto !important;
+    }
+}
