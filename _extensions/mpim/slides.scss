@@ -107,6 +107,12 @@ div.column {
   max-height: 2.2em !important;
   top: 0;
   right: 12px;
+  transition: top 0.8s ease-out;
+}
+
+.reveal .slides:has(#title-slide.present) ~ .slide-logo {
+ top: -100px;
+ transition: none;
 }
 
 .slide-number, .reveal.has-logo .slide-number {
