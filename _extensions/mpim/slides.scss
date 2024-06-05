@@ -110,6 +110,16 @@ div.column {
   transition: top 0.8s ease-out;
 }
 
+@media screen and (max-width: 800px) {
+  .reveal .slide-logo {
+    max-height: 1.1em !important;
+  }
+
+  .slide-number, .reveal.has-logo .slide-number {
+    font-size: 0.4em !important;
+  }
+}
+
 .reveal .slides:has(#title-slide.present) ~ .slide-logo {
  top: -100px;
  transition: none;
