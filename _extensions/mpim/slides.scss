@@ -117,3 +117,6 @@ div.column {
   font-size: 0.6em;
 }
 
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
+}
