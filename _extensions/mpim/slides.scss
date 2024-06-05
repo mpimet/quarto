@@ -102,3 +102,16 @@ div.column {
         margin: auto !important;
     }
 }
+
+.reveal .slide-logo {
+  top: 0;
+  right: 12px;
+}
+
+.slide-number, .reveal.has-logo .slide-number {
+  bottom: 12px !important;
+  right: 12px !important;
+  top: unset !important;
+  color: $green;
+}
+
