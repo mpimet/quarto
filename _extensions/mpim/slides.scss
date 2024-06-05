@@ -104,6 +104,7 @@ div.column {
 }
 
 .reveal .slide-logo {
+  max-height: 2.2em !important;
   top: 0;
   right: 12px;
 }
@@ -113,5 +114,6 @@ div.column {
   right: 12px !important;
   top: unset !important;
   color: $green;
+  font-size: 0.6em;
 }
 
