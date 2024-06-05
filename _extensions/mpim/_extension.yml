@@ -12,14 +12,14 @@ contributes:
       transition: slide
       slide-number: true
       code-background: true
-      logo: MPI_M_Logo_green_ex.png
+      logo: MPG_Minerva_mpg-green.png
       chalkboard:
         buttons: true
       navigation-mode: vertical
       auto-stretch: true
       center: true
       resources:
-        - MPI_M_Logo_green_ex.png
+        - MPG_Minerva_mpg-green.png
         - slide_separators/dots.png
         - slide_separators/dots_alt.png
         - slide_separators/sep01.png
