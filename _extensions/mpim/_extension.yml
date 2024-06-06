@@ -8,7 +8,6 @@ contributes:
       theme: [slides.scss]
       width: 1245
       height: 700
-      css: _extensions/mpimet/mpim/fonts/fonts.css
       transition: slide
       slide-number: true
       code-background: true
@@ -18,96 +17,18 @@ contributes:
       navigation-mode: vertical
       auto-stretch: true
       center: true
-      resources:
+      format-resources:
         - MPG_Minerva_mpg-green.png
-        - slide_separators/dots.png
-        - slide_separators/dots_alt.png
-        - slide_separators/sep01.png
-        - slide_separators/sep02.png
-        - slide_separators/sep03.png
-        - slide_separators/sep04.png
-        - slide_separators/sep05.png
-        - slide_separators/sep06.png
-        - slide_separators/sep07.png
-        - slide_separators/sep08.png
-        - slide_separators/sep09.png
-        - slide_separators/sep10.png
-        - slide_separators/sep11.png
-        - slide_separators/sep12.png
-        - titles/blue.png
-        - titles/darkgreen.png
-        - titles/gray.png
-        - titles/green.png
-        - titles/lightgreen.png
-        - titles/white.png
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2
-        - fonts/fonts.css
+      filters:
+        - file-dependencies.lua
     html:
       toc: false
       theme: [poster.scss]
-      css: _extensions/mpimet/mpim/fonts/fonts.css
       page-layout: custom
-      resources:
-        - MPI_M_Logo_green_ex.png
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2
-        - fonts/woff2/roboto/v30/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2
-        - fonts/woff2/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2
-        - fonts/fonts.css
       template-partials:
         - title-block.html
       filters:
+        - file-dependencies.lua
         - mpim-title-filter.lua
   filters:
     - mpim-title-filter.lua

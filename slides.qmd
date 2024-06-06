@@ -16,11 +16,11 @@ date: 2024-05-31
 
 ::::{.columns}
 :::{.column}
-![MPG logo in plain style](_extensions/mpim/MPG_Minerva_mpg-green.png){height=300px}
+![MPG logo in plain style](MPG_Minerva_mpg-green.png){height=300px}
 :::
 
 :::{.column}
-![MPG logo with polaroid effect](_extensions/mpim/MPG_Minerva_mpg-green.png){height=300px .polaroid}
+![MPG logo with polaroid effect](MPG_Minerva_mpg-green.png){height=300px .polaroid}
 :::
 
 ::::
