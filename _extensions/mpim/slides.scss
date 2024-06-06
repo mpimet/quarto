@@ -40,6 +40,10 @@ $presentation-heading-color: $green;
     background-position: center;
 }
 
+.no-background .slide-background-content {
+    display: none;
+}
+
 .quarto-title-block {
     color: $white;
     h1 {
