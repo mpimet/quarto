@@ -50,6 +50,10 @@ h2 {
     font-size: 28px;
 }
 
+.reveal ::selection {
+    background: #006699;
+}
+
 .reveal pre code {
     font-size: 0.7em;
 }
