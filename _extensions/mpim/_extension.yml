@@ -14,7 +14,7 @@ contributes:
       logo: MPG_Minerva_mpg-green.png
       chalkboard:
         buttons: true
-      navigation-mode: vertical
+      navigation-mode: linear
       auto-stretch: true
       center: true
       format-resources:
