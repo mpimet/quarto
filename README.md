@@ -21,17 +21,11 @@ quarto add mpimet/quarto
 
 This can also be used to update the format to a newer version.
 
-## Using
-
-*TODO*: Describe how to use your format.
-
-## Format Options
-
-*TODO*: If your format has options that can be set via document metadata, describe them.
-
 ## Example
 
 Here is the source code for a sample poster: [poster.qmd](poster.qmd) and a sample slide deck: [slides.qmd](slides.qmd).
-<!-- An rendered version of the document is [available online](https://tobi_public.pages.gwdg.de/mpim_poster_quarto/template.html). -->
 
-
+You can build the samples by running:
+```
+quarto render <source_file>
+```
