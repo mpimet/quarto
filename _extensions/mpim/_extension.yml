@@ -17,7 +17,7 @@ contributes:
       navigation-mode: linear
       auto-stretch: true
       center: true
-      format-resources:
+      resources:
         - MPG_Minerva_mpg-green.png
       filters:
         - file-dependencies.lua
