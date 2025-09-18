@@ -1,25 +1,4 @@
-/*-- scss:defaults --*/
-
-$white:    #fff;
-$black:    #000;
-$green:   #006c66;
-$darkgreen: #005555;
-$darkgrey: #777777;
-$grey: #a7a7a8;
-$lightgrey: #eeeeee;
-$lightgreen: #c6d325;
-$darkblue: #29485d;
-$lightblue: #00b1ea;
-$orange: #ef7c00;
-
-$primary:       $green;
-$secondary:     $grey;
-$success:       $green;
-$info:          $lightgreen;
-$warning:       $orange;
-$danger:        $orange;
-$light:         $lightgrey;
-$dark:          $darkgrey;
+@import "colors";
 
 $presentation-heading-font: "Roboto";
 $presentation-heading-color: $green;
@@ -78,22 +57,6 @@ h2 {
 
 .right {
     text-align: right;
-}
-
-.darkgreen {
-    color: $darkgreen;
-}
-
-.green {
-    color: $green;
-}
-
-.lightgreen {
-    color: $lightgreen;
-}
-
-.orange {
-    color: $orange;
 }
 
 .attribution {
