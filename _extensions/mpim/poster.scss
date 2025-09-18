@@ -1,32 +1,8 @@
-/*-- scss:defaults --*/
+@import "colors";
 
 $theme: "poster";
 
-//
-// Color system
-//
-
-$white:    #fff;
-$black:    #000;
-$green:   #006c66;
-$darkgreen: #005555;
-$darkgrey: #777777;
-$grey: #a7a7a8;
-$lightgrey: #eeeeee;
-$lightgreen: #c6d325;
-$darkblue: #29485d;
-$lightblue: #00b1ea;
-$orange: #ef7c00;
-
-$primary:       $green;
-$secondary:     $grey;
-$success:       $green;
-$info:          $lightgreen;
-$warning:       $orange;
-$danger:        $orange;
-$light:         $lightgrey;
-$dark:          $darkgrey;
-
+// Define ISO page sizes
 $min-contrast-ratio:   2.75;
 
 $A0_long: 1189mm;

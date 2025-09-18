@@ -1,0 +1,39 @@
+//
+// Color system
+//
+$white:    #fff;
+$black:    #000;
+$green:   #006c66;
+$darkgreen: #005555;
+$darkgrey: #777777;
+$grey: #a7a7a8;
+$lightgrey: #eeeeee;
+$lightgreen: #c6d325;
+$darkblue: #29485d;
+$lightblue: #00b1ea;
+$orange: #ef7c00;
+
+$primary:       $green;
+$secondary:     $grey;
+$success:       $green;
+$info:          $lightgreen;
+$warning:       $orange;
+$danger:        $orange;
+$light:         $lightgrey;
+$dark:          $darkgrey;
+
+.darkgreen {
+    color: $darkgreen;
+}
+
+.green {
+    color: $green;
+}
+
+.lightgreen {
+    color: $lightgreen;
+}
+
+.orange {
+    color: $orange;
+}

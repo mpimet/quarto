@@ -25,6 +25,15 @@ date: 2024-05-31
 
 ::::
 
+## Colors
+
+* You can use pre-defined colors that adhere to the MPI-M design guidelines
+* To apply a color, add the relevant CSS class:
+  ```markdown
+  This is a sentence with [colored words]{.green} in between.
+  ```
+* The available colors are [**darkgreen**]{.darkgreen}, [**green**]{.green}, [**lightgreen**]{.lightgreen}, and [**orange**]{.orange}
+
 ## More Information
 
 You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
