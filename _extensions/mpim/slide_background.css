@@ -5,8 +5,92 @@
     background-position: center;
 }
 
-.reveal .level1 .slide-background-content {
+.separator .slide-background-content {
     background-image: url("slide_separators/dots.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-01 .slide-background-content {
+    background-image: url("slide_separators/sep01.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-02 .slide-background-content {
+    background-image: url("slide_separators/sep02.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-03 .slide-background-content {
+    background-image: url("slide_separators/sep03.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-04 .slide-background-content {
+    background-image: url("slide_separators/sep04.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-05 .slide-background-content {
+    background-image: url("slide_separators/sep05.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-06 .slide-background-content {
+    background-image: url("slide_separators/sep06.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-07 .slide-background-content {
+    background-image: url("slide_separators/sep07.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-08 .slide-background-content {
+    background-image: url("slide_separators/sep08.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-09 .slide-background-content {
+    background-image: url("slide_separators/sep09.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-10 .slide-background-content {
+    background-image: url("slide_separators/sep10.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-11 .slide-background-content {
+    background-image: url("slide_separators/sep11.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.separator-12 .slide-background-content {
+    background-image: url("slide_separators/sep12.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
