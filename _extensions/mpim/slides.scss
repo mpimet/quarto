@@ -33,6 +33,37 @@ h2 {
     background: #006699;
 }
 
+.reveal blockquote {
+  width: 70%;
+  color: $darkgrey;
+  font-family: serif;
+  font-style: italic;
+  border-color: $lightgreen;
+  text-align: left;
+}
+
+.reveal blockquote::before {
+  content: "”";
+  font-size: 3.5em;
+  color: $lightgreen;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.reveal blockquote .author {
+  display: block;
+  font-family: var(--r-main-font);
+  font-size: smaller;
+  font-style: normal;
+  text-align: right;
+}
+
+.reveal blockquote .author::before {
+  content: "—";
+  margin-right: 8px;
+}
+
 .reveal pre code {
     font-size: 0.7em;
 }
