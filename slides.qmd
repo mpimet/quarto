@@ -39,6 +39,13 @@ You can add a polaroid effect to embedded images:
   ```
 * The available colors are [**darkgreen**]{.darkgreen}, [**green**]{.green}, [**lightgreen**]{.lightgreen}, and [**orange**]{.orange}
 
+## Block quotes
+
+> Dem Anwenden muss das Erkennen vorausgehen
+> <span class="author">Max Planck</span>
+
+* The default style for block quotes is improved
+
 ## Transition slides
 
 You can insert a transition slide by adding the `{.separator}` class to the heading:
