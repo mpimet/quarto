@@ -1,0 +1,59 @@
+name: Deploy Quarto to Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.qmd'
+      - '_extensions/**'
+      - '*.png'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Slides
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: slides.qmd
+
+      - name: Build Poster
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: poster.qmd
+
+      - name: Prepare output files
+        run: |
+          mkdir -p output
+          if [ -f slides.html ]; then
+            cp slides.html output/slides.html
+          fi
+          if [ -f poster.html ]; then
+            cp poster.html output/poster.html
+          fi
+          if [ -d slides_files ]; then
+            cp -r slides_files output/slides_files
+          fi
+          if [ -d poster_files ]; then
+            cp -r poster_files output/poster_files
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
