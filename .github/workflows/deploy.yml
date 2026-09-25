@@ -3,10 +3,6 @@ name: Deploy Quarto to Pages
 on:
   push:
     branches: [main]
-    paths:
-      - '**.qmd'
-      - '_extensions/**'
-      - '*.png'
   workflow_dispatch:
 
 permissions:
