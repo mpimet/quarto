@@ -21,7 +21,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+
+      - name: Install quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Build Slides
         uses: quarto-dev/quarto-actions/render@v2
