@@ -23,9 +23,12 @@ This can also be used to update the format to a newer version.
 
 ## Example
 
-Here is the source code for a sample poster: [poster.qmd](poster.qmd) and a sample slide deck: [slides.qmd](slides.qmd).
+This repository contains two examples:
+  * Poster: [poster.qmd](poster.qmd)
+  * Slide deck: [slides.qmd](slides.qmd)
 
-You can build the samples by running:
+You can view a rendered version of the [poster](https://mpimet.github.io/quarto/poster.html) and [slides](https://mpimet.github.io/quarto/slides.html),
+or build the examples locally by running the following command:
 ```
 quarto render <source_file>
 ```
