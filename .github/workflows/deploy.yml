@@ -25,6 +25,8 @@ jobs:
 
       - name: Install quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        run:
+          - python3 -m pip install jupyter
 
       - name: Build Slides
         uses: quarto-dev/quarto-actions/render@v2
