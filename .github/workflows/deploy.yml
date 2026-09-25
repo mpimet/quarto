@@ -23,36 +23,13 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install Jupyter
-        run: |
-          python3 -m pip install jupyter
+        run: python3 -m pip install jupyter
 
       - name: Build Slides
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          path: slides.qmd
+        run: quarto render slides.qmd --no-clean --output-dir output
 
       - name: Build Poster
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          path: poster.qmd
-
-      - name: Prepare output files
-        run: |
-          mkdir -p output
-          cp MPG_Minerva_mpg-green.png output/
-
-          if [ -f slides.html ]; then
-            cp slides.html output/slides.html
-          fi
-          if [ -f poster.html ]; then
-            cp poster.html output/poster.html
-          fi
-          if [ -d slides_files ]; then
-            cp -r slides_files output/slides_files
-          fi
-          if [ -d poster_files ]; then
-            cp -r poster_files output/poster_files
-          fi
+        run: quarto render poster.qmd --noclean --output-dir output
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
