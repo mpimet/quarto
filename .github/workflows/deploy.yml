@@ -29,7 +29,7 @@ jobs:
         run: quarto render slides.qmd --no-clean --output-dir output
 
       - name: Build Poster
-        run: quarto render poster.qmd --noclean --output-dir output
+        run: quarto render poster.qmd --no-clean --output-dir output
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
