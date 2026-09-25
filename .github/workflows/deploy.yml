@@ -39,6 +39,8 @@ jobs:
       - name: Prepare output files
         run: |
           mkdir -p output
+          cp MPG_Minerva_mpg-green.png output/
+
           if [ -f slides.html ]; then
             cp slides.html output/slides.html
           fi
